@@ -8,20 +8,20 @@ The system follows real banking workflows, separating KYC data from risk-assessm
 
 🏗 Project Architecture
 
-User Input (Web Application)
-                ↓
-KYC Validation (Compliance Only – Not Used in ML)
-                ↓
-Credit Score → Loan Grade Mapping (Bank Policy Rules)
-                ↓
-Feature Engineering & Encoding
-                ↓
-Decision Tree Model (Trained ML Model)
-                ↓
-Default Probability Prediction
-                ↓
-Business Threshold Evaluation (0.4)
-                ↓
+User Input (Web Application)                                                                                                                                                  
+                ↓                                                                                                                                                             
+KYC Validation (Compliance Only – Not Used in ML)                                                                                                                             
+                ↓                                                                                                                                                             
+Credit Score → Loan Grade Mapping (Bank Policy Rules)                                                                                                                         
+                ↓                                                                                                                                                             
+Feature Engineering & Encoding                                                                                                                                                
+                ↓                                                                                                                                                             
+Decision Tree Model (Trained ML Model)                                                                                                                                        
+                ↓                                                                                                                                                             
+Default Probability Prediction                                                                                                                                                
+                ↓                                                                                                                                                             
+Business Threshold Evaluation (0.4)                                                                                                                                           
+                ↓                                                                                                                                                             
 Final Loan Approval / Rejection                                                                                                                                                     
 
 
