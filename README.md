@@ -10,7 +10,7 @@ The system follows real banking workflows, separating KYC data from risk-assessm
 
 User Input (Web Application)                                                                                                                                                  
                 ↓                                                                                                                                                            
-KYC Validation (Compliance Only – Not Used in ML)                                                                                                                             
+KYC Validation (Compliance Only – Not Used in ML)                                                                                                                                                                                                                                                          
                 ↓
 Credit Score → Loan Grade Mapping (Bank Policy Rules)                                                                                                                         
                 ↓                                                                                                                                                             
