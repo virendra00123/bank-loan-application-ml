@@ -10,6 +10,7 @@ Project Architecture:
 
 User Input (Web App)                                                                                                                                                          
         ↓
+        
 KYC Validation (Not used in ML)                                                                                                                                               
         ↓
 Credit Score → Loan Grade Mapping                                                                                                                                             
