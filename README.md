@@ -6,7 +6,7 @@ The Bank Loan Application System is an end-to-end machine learning application t
 
 The system follows real banking workflows, separating KYC data from risk-assessment features, applying business-defined credit policies, and deploying the final solution as a production-ready web application using Streamlit.
 
-🏗 Project Architecture
+Project Architecture:
 
 User Input (Web Application)                                                                                                                                                  
                 ↓                                                                                                                                                            
@@ -22,7 +22,17 @@ Default Probability Prediction
                 ↓                                                                                                                                                             
 Business Threshold Evaluation (0.4)                                                                                                                                           
                 ↓                                                                                                                                                             
-Final Loan Approval / Rejection                                                                                                                                                     
+Final Loan Approval / Rejection       
+
+Model Performance:
+
+| Metric    | Value |
+| --------- | ----- |
+| Accuracy  | ~92%  |
+| Precision | ~94%  |
+| Recall    | ~70%  |
+| Threshold | 0.4   |
+
 
 
 
