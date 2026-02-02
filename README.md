@@ -6,23 +6,23 @@ The Bank Loan Application System is an end-to-end machine learning application t
 
 The system follows real banking workflows, separating KYC data from risk-assessment features, applying business-defined credit policies, and deploying the final solution as a production-ready web application using Streamlit.
 
-Project Architecture:
+🏗 Project Architecture
 
-User Input (Web App)                                                                                                                                                          
-        ↓ 
-KYC Validation (Not used in ML)                                                                                                                                               
-        ↓
-Credit Score → Loan Grade Mapping                                                                                                                                             
-        ↓
-ML Feature Processing
-        ↓
-Decision Tree Model
-        ↓
-Probability of Default
-        ↓
-Threshold (0.4)                                                                                                                                                               
-        ↓
-Loan Approval / Rejection                                                                                                                                                      
+User Input (Web Application)
+                ↓
+KYC Validation (Compliance Only – Not Used in ML)
+                ↓
+Credit Score → Loan Grade Mapping (Bank Policy Rules)
+                ↓
+Feature Engineering & Encoding
+                ↓
+Decision Tree Model (Trained ML Model)
+                ↓
+Default Probability Prediction
+                ↓
+Business Threshold Evaluation (0.4)
+                ↓
+Final Loan Approval / Rejection                                                                                                                                                     
 
 
 
