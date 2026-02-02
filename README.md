@@ -9,8 +9,7 @@ The system follows real banking workflows, separating KYC data from risk-assessm
 Project Architecture:
 
 User Input (Web App)                                                                                                                                                          
-        ↓
-        
+        ↓ 
 KYC Validation (Not used in ML)                                                                                                                                               
         ↓
 Credit Score → Loan Grade Mapping                                                                                                                                             
