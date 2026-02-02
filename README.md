@@ -9,9 +9,9 @@ The system follows real banking workflows, separating KYC data from risk-assessm
 🏗 Project Architecture
 
 User Input (Web Application)                                                                                                                                                  
-                 ↓                                                                                                                                                            
+                ↓                                                                                                                                                            
 KYC Validation (Compliance Only – Not Used in ML)                                                                                                                             
-                 ↓
+                ↓
 Credit Score → Loan Grade Mapping (Bank Policy Rules)                                                                                                                         
                 ↓                                                                                                                                                             
 Feature Engineering & Encoding                                                                                                                                                
